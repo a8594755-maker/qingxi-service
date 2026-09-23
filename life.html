@@ -65,7 +65,7 @@
 </div>
 <div class="trash rv">
 <div class="trash-info">
-<div class="trash-days"><span class="k">收運日</span><b>週一、二、四、五、六</b><span class="note">週三、週日停收（桃園市週收五日）</span></div>
+<div class="trash-days"><span class="k">一般垃圾</span><b>週一至週六</b><span class="k">資源回收</span><b>週一、二、四、五、六</b><span class="note">週三只收一般垃圾，週日停收</span></div>
 <div class="svc-table trash-table">
 <div class="th"><span>路三班 第 9 區・清運點</span><span>班表時間</span></div>
 <div class="tr"><b><span class="stop-no">1</span>瑞士社區</b><span class="t">16:45</span></div>
@@ -73,7 +73,7 @@
 <div class="tr"><b><span class="stop-no">3</span>永順一街、洽溪路</b><span class="t">17:06</span></div>
 <div class="tr"><b><span class="stop-no">4</span>永能路、永興路</b><span class="t">17:12</span></div>
 </div>
-<p class="trash-note">以上是官方系統標記為「青溪里」的沿街清運點，一般垃圾與資源回收同車收運。大樓社區多由「社區專車」進入社區收運，時間依各社區而定，請洽管委會或用下方系統查詢。</p>
+<p class="trash-note">以上是官方系統標記為「青溪里」的沿街清運點，資源回收與垃圾同一班車收運。大樓社區多由「社區專車」進入社區收運，時間依各社區而定，請洽管委會或用下方系統查詢。</p>
 <div class="trash-miss"><b>錯過垃圾車？</b><span>中壢區中隊定點收受：華美一路 90 號，週一至週六 07:00–22:00</span></div>
 <div class="trash-actions">
 <a class="btn btn-lg btn-ink" href="https://route.tyoem.gov.tw/" target="_blank" rel="noopener noreferrer">垃圾車現在在哪　↗</a>
@@ -85,7 +85,7 @@
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-<script>(function(){var el=document.getElementById("trash-map");if(!el||!window.L)return;var pts=[[1,"瑞士社區","16:45",25.00367,121.20757],[2,"民權路四段、領航北路一段","17:00",25.00658,121.20243],[3,"永順一街、洽溪路","17:06",25.01074,121.20756],[4,"永能路、永興路","17:12",25.00996,121.20605]];var m=L.map(el,{scrollWheelZoom:false,attributionControl:true});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:"&copy; OpenStreetMap"}).addTo(m);var line=[];pts.forEach(function(p){line.push([p[3],p[4]]);L.marker([p[3],p[4]],{icon:L.divIcon({className:"stop-pin",html:"<span>"+p[0]+"</span>",iconSize:[30,30],iconAnchor:[15,15]})}).addTo(m).bindPopup("<b>"+p[1]+"</b><br>班表時間 "+p[2]+"<br>週一、二、四、五、六");});L.polyline(line,{color:"#B4633A",weight:3,dashArray:"6 8"}).addTo(m);var fit=function(){m.invalidateSize();m.fitBounds(line,{padding:[36,36]});};fit();if(window.ResizeObserver){var w=el.offsetWidth;new ResizeObserver(function(){if(el.offsetWidth!==w){w=el.offsetWidth;fit();}}).observe(el);}})();</script>
+<script>(function(){var el=document.getElementById("trash-map");if(!el||!window.L)return;var pts=[[1,"瑞士社區","16:45",25.00367,121.20757],[2,"民權路四段、領航北路一段","17:00",25.00658,121.20243],[3,"永順一街、洽溪路","17:06",25.01074,121.20756],[4,"永能路、永興路","17:12",25.00996,121.20605]];var m=L.map(el,{scrollWheelZoom:false,attributionControl:true});L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:"&copy; OpenStreetMap"}).addTo(m);var line=[];pts.forEach(function(p){line.push([p[3],p[4]]);L.marker([p[3],p[4]],{icon:L.divIcon({className:"stop-pin",html:"<span>"+p[0]+"</span>",iconSize:[30,30],iconAnchor:[15,15]})}).addTo(m).bindPopup("<b>"+p[1]+"</b><br>班表時間 "+p[2]+"<br>一般垃圾週一至週六<br>資源回收週三、週日除外");});L.polyline(line,{color:"#B4633A",weight:3,dashArray:"6 8"}).addTo(m);var fit=function(){m.invalidateSize();m.fitBounds(line,{padding:[36,36]});};fit();if(window.ResizeObserver){var w=el.offsetWidth;new ResizeObserver(function(){if(el.offsetWidth!==w){w=el.offsetWidth;fit();}}).observe(el);}})();</script>
 <div class="section-gap">
 <div class="sub-head">
 <p class="eyebrow rv">遇到狀況時</p>
